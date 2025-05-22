@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+ .header{
+    width: auto;
+    height: 100%;
+    background-color: blue;
+    line-height:50px ;
+    font-size: 15px;
+    color: white;
+    padding-left: 10px;
+    margin: 0 10px;
+ }
+ .container{
+    display: flex;
+    color: aliceblue;
+    font-size: 15px;
+    height: calc(100vh - 120px);
+    margin: 5px;
+    line-height:50px
+ }
+ .sidebar{
+    background-color: green;
+    width: 25%;
+    padding-left: 10px;
+    margin: 5px;
+ }
+ .content{
+    background-color: red;
+    width: 75%;
+    padding-left: 10px;
+    margin: 5px;
+ }
+ .footer{
+    background-color: purple;
+    width: auto;
+    height: 100%;
+    line-height:50px ;
+    font-size: 15px;
+    color: white;
+    padding-left: 10px;
+    margin: 0 10px;
+ }
